@@ -120,8 +120,6 @@ input[type="text"] {
 }
 /* Mobile Styles */
 @media (max-width: 768px) {
-  
-
   /* Navbar */
   #navbar {
     margin-right: 15px;
@@ -155,6 +153,7 @@ input[type="text"] {
   ul {
     margin-left: 0;
     align-items: flex-start;
+    padding-left: 0px;
   }
 
   li.EssayEntry {
