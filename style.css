@@ -119,3 +119,77 @@ input[type="text"] {
   max-width: 300px;
   margin-bottom: 20px;
 }
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Container */
+  .container {
+    padding-left: 5%; /* Less padding on mobile */
+  }
+
+  /* Navbar */
+  #navbar {
+    padding: 15px;
+    font-size: 20px;
+    gap: 10px;
+    flex-direction: column; /* Stack links vertically on mobile */
+    align-items: flex-start;
+  }
+
+  #navbar a {
+    font-size: 1.2em; /* Smaller font for mobile */
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  /* Header text */
+  #header p {
+    font-size: 1.8em; /* Slightly smaller font */
+  }
+
+  /* Main container */
+  #maincontainer {
+    max-width: 100%;
+    padding: 0 5%; /* Add padding on the sides */
+  }
+
+  #main {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  /* Essays list */
+  ul {
+    margin-left: 0;
+    align-items: flex-start;
+  }
+
+  li.EssayEntry {
+    margin-bottom: 20px;
+  }
+
+  .EssayDate {
+    font-size: 10px;
+  }
+
+  a.EssayName {
+    font-size: 16px;
+  }
+
+  /* Styled horizontal rule */
+  .styledhr {
+    margin: 15px 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+  }
+
+  /* Input field */
+  input[type="text"] {
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
+  }
+}
