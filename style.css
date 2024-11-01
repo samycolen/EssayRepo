@@ -120,10 +120,7 @@ input[type="text"] {
 }
 /* Mobile Styles */
 @media (max-width: 768px) {
-  /* Container */
-  .container {
-    padding-left: 5%; /* Less padding on mobile */
-  }
+  
 
   /* Navbar */
   #navbar {
@@ -147,7 +144,6 @@ input[type="text"] {
   /* Main container */
   #maincontainer {
     max-width: 100%;
-    padding: 0 5%; /* Add padding on the sides */
   }
 
   #main {
